@@ -11,7 +11,7 @@
         <!-- Botón de Bootstrap -->
         <div class="container">
             <h1>Login</h1>
-            <a href="master.jsp" class="btn btn-primary">Login</a>
+            <a href="master.jsp" class="btn btn-primary">Login Nicolle</a>
         </div>
 
         <!-- Agregar referencia al JS de Bootstrap y Popper.js -->
