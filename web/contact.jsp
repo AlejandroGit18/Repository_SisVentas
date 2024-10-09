@@ -8,7 +8,7 @@
 <div class="container mt-5">
     <section class="text-center">
         <h2 class="display-4">Contáctanos</h2>
-        <p class="lead">Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo.</p>
+        <p class="lead">Estamos aquí para ayudarte. Completa el formulario y nos pondremos en contacto contigo</p>
 
         <form action="enviarMensaje.jsp" method="post" class="mt-4">
             <!-- Campo Nombre -->
