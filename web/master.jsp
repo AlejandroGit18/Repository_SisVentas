@@ -13,9 +13,9 @@
 </head>
 <body>
     <!-- Cabecera común para todas las páginas -->
-    <!--<header class="bg-primary text-white text-center py-3">
+    <header class="bg-primary text-white text-center py-3">
         <h1>Menú</h1>
-    </header>-->
+    </header>
 
     <!-- Menú de navegación usando Bootstrap -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
