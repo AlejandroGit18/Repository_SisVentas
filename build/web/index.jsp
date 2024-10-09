@@ -3,7 +3,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Login</title>
+        <title>Inicio</title>
         <!-- Agregar referencia al CSS de Bootstrap -->
         <link rel="stylesheet" href="styles/bootstrap.min.css">
     </head>
