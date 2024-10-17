@@ -1,4 +1,3 @@
-
 package controlador;
 
 import java.io.IOException;
@@ -12,7 +11,7 @@ import modelo.Puesto;
 public class sr_puestos extends HttpServlet {
 
     Puesto puesto;
-    
+
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
@@ -23,7 +22,6 @@ public class sr_puestos extends HttpServlet {
                 Integer.valueOf(request.getParameter("txt_id")), // ID del puesto
                 request.getParameter("txt_nombre") // Nombre del puesto
             );
-            
 
             // Acción al presionar "Agregar"
             if ("agregar".equals(request.getParameter("btn_agregar"))) {
