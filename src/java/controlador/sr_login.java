@@ -14,7 +14,7 @@ import java.io.IOException;
 import modelo.Usuario;
 
 @WebServlet("/sr_login")
-public class sr_login extends HttpServlet {
+public class Sr_login extends HttpServlet {
 
     Usuario usuario;
     

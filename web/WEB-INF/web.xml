@@ -3,7 +3,7 @@
     <!-- Definición del servlet LoginServlet -->
     <servlet>
         <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>controlador.sr_login</servlet-class>
+        <servlet-class>controlador.Sr_login</servlet-class>
     </servlet>
     <!-- Definición del servlet sr_puestos -->
     <servlet>
