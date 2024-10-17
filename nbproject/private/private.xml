@@ -5,6 +5,9 @@
         <group>
             <file>file:/C:/Users/Andre/Documents/NetBeansProjects/Repository_SisVentas/web/index.jsp</file>
             <file>file:/C:/Users/Andre/Documents/NetBeansProjects/Repository_SisVentas/src/java/controlador/sr_puestos.java</file>
+            <file>file:/C:/Users/Andre/Documents/NetBeansProjects/Repository_SisVentas/src/java/modelo/Conexion.java</file>
+            <file>file:/C:/Users/Andre/Documents/NetBeansProjects/Repository_SisVentas/src/java/modelo/Puesto.java</file>
+            <file>file:/C:/Users/Andre/Documents/NetBeansProjects/Repository_SisVentas/web/WEB-INF/web.xml</file>
         </group>
     </open-files>
 </project-private>
