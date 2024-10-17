@@ -17,7 +17,7 @@
         <div class="bg"></div> <!-- Aquí se ha agregado el div para el fondo -->
     <div class="wrapper d-flex flex-column justify-content-center align-items-center vh-50">
         <div class="logo mb-3">
-            <img src="img/agregar-usuario (1).png" alt="Login" width="100">
+            <img src="Imagenes/Usuarios.png" alt="Login" width="100">
         </div>
         <div class="text-center mt-4 name">
             <h1>Login</h1>
@@ -43,5 +43,3 @@
 
 </body>
 </html>
-
-
