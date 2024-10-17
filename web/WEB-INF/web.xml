@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!-- Definición del servlet LoginServlet -->
+    <servlet>
+        <servlet-name>LoginServlet</servlet-name>
+        <servlet-class>controlador.sr_login</servlet-class>
+    </servlet>
+    <!-- Definición del servlet sr_puestos -->
     <servlet>
         <servlet-name>sr_puestos</servlet-name>
         <servlet-class>controlador.sr_puestos</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>sr_puestos</servlet-name>
-        <servlet-class>controlador.sr_puestos</servlet-class>
-    </servlet>
+    <!-- Mapeo del servlet LoginServlet -->
+    <servlet-mapping>
+        <servlet-name>LoginServlet</servlet-name>
+        <url-pattern>/LoginServlet</url-pattern>
+    </servlet-mapping>
+    <!-- Mapeo del servlet sr_puestos -->
     <servlet-mapping>
         <servlet-name>sr_puestos</servlet-name>
         <url-pattern>/sr_puestos</url-pattern>
     </servlet-mapping>
+    <!-- Configuración de la sesión -->
     <session-config>
         <session-timeout>
             30
